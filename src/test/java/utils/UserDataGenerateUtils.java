@@ -16,7 +16,7 @@ public class UserDataGenerateUtils {
         year = String.valueOf(faker.number().numberBetween(1970, 2000)),
         subjects = "English",
         hobbie = "Reading",
-        picture = "1.png",
+        picture = "img/1.png",
         adress = faker.address().streetAddress(),
         state = "Haryana",
         city = "Karnal";
