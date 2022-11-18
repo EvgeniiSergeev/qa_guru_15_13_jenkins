@@ -45,3 +45,10 @@ tasks.withType(Test) {
         }
     }
 }
+
+task nodemoqa(type: Test) {
+    useJUnitPlatform {
+        excludeTags "demoqa"
+    }
+}
+
