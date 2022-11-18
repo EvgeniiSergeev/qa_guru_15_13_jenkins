@@ -1,11 +1,14 @@
 package tests;
 
+import org.junit.jupiter.api.Tag;
 import pages.PracticeFormPage;
 import org.junit.jupiter.api.Test;
 import tests.demoqa.TestBase;
 
 import static utils.UserDataGenerateUtils.*;
 import static io.qameta.allure.Allure.step;
+
+@Tag("demoqa")
 
 public class PracticeFormTests extends TestBase {
     PracticeFormPage practiceFormPage = new PracticeFormPage();
